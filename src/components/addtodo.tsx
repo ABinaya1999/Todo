@@ -18,7 +18,7 @@ const AddTodo = () => {
     <>
     <form onSubmit={handelFormSubmit}>
       <input type="text" placeholder="Write your todo..." name="" id="" value={todo} onChange={(e)=>{ setTodo(e.target.value)}} />
-      <button type="submit">Add</button>
+      <button type="submit" >Add</button>
     </form>
     </>
     
